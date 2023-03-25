@@ -47,3 +47,30 @@ print("id of c: ", id(c))
 """
 id(a) is equal to id(c) since value of a and c are same 
 """
+
+
+#  declaring and initializing variables
+
+a = 10
+a = 'hello'
+a = 20.3
+
+# --------------------------
+
+a = 10
+b = 10
+c = 10
+
+# is same as
+
+a = b = c = 10
+
+# --------------------------
+
+a = 10
+b = 10.23
+c = 'hello'
+
+# is same as
+
+a, b, c = 10, 10.23, 'hello'
