@@ -1,4 +1,4 @@
-# ===== Output Statements =====
+# ===== Escape Sequence =====
 
 print("Hello\nWorld")
 
