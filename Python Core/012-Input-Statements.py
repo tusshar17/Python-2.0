@@ -1,4 +1,4 @@
-# ===== Output Statements =====
+# ===== Input Statements =====
 
 name = input("Enter Your Name: ")
 print(name)
