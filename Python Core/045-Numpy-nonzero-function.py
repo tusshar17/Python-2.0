@@ -1,4 +1,4 @@
-# where function in numpy
+# nonzero function in numpy
 
 import numpy as np
 
