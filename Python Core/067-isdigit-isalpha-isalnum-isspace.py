@@ -26,7 +26,7 @@ print(str3.isalnum())
 print()
 
 
-# isspace
+# isspace()
 
 str4 = " "
 print(str4.isspace())
