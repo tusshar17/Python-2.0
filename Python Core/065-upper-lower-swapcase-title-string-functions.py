@@ -19,7 +19,6 @@ print("orignal:", name)
 print("modified:", name.swapcase())  # it do not change original string
 print()
 
-
 # title()
 name = "hello world how are you"
 print("orignal:", name)
