@@ -5,3 +5,14 @@ def show(a):
 
 
 show(lambda x: x**2)
+
+
+# returning lambda function from a function
+
+def add():
+    y = 100
+    return lambda x: x+y
+
+
+a = add()
+print(a(10))
