@@ -17,7 +17,6 @@ show()
 
 # num = decor(num)
 # num()
-#
 
 print()
 
@@ -39,6 +38,8 @@ print(num())
 
 # result_fun = decor2(num)
 # print(result_fun())
+
+print()
 
 
 #
