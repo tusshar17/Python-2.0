@@ -39,3 +39,42 @@ print(num())
 
 # result_fun = decor2(num)
 # print(result_fun())
+
+
+#
+def decorA(myfun):
+    def inner():
+        a = myfun()
+        add = a+5
+        return add
+    return inner
+
+
+def decorB(myfun):
+    def inner():
+        b = myfun()
+        multiply = b*10
+        return multiply
+    return inner
+
+
+@decorA
+@decorB
+def myfun():
+    return 10
+
+
+print(myfun())
+# res = decorB(decorA(myfun))
+# print(res())
+
+
+@decorB
+@decorA
+def myfun():
+    return 10
+
+
+print(myfun())
+# res = decorA(decorB(myfun))
+# print(res())
