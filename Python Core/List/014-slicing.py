@@ -11,3 +11,5 @@ print("from 5 to last:", x[5:])
 print("last 4 elements:", x[-4:])
 
 print("alternate element:", x[::2])
+
+print("reversed list:", x[::-1])
