@@ -1,7 +1,7 @@
 # fromkeys() method
 
 key = (101, 102, 103)
-value = ("hello", "world", "python")
+value = "hello"
 
 d = dict.fromkeys(key, value)
 print(d)
