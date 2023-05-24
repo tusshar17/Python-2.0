@@ -4,7 +4,15 @@ students = {101: "raj", 102: "rahul", 103: "sonam"}
 print("original dictionary:", students)
 print()
 
-new_added_item = students.setdefault(104, "joy")
-print("after setdefault dictionary:", students)
+
+# if key exists
+returned_value = students.setdefault(102, "default")
+print(returned_value)
+
+
+# if key do not exists
+returned_value = students.setdefault(109, "default")
+print(returned_value)
 print()
-print("new added element:", new_added_item)
+
+print("dictionary after setdefault() :", students)
