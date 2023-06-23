@@ -14,11 +14,14 @@ class Snail:
         print("crawl.....")
 
 
+def fun(obj):
+    obj.speak()
+
 d = Duck()
-d.speak()
+fun(d)
 
 c = Cat()
-c.speak()
+fun(c)
 
 s = Snail()
-# s.speak() --> AttributeError: 'Snail' object has no attribute 'speak'
+fun(s) #--> AttributeError: 'Snail' object has no attribute 'speak'
